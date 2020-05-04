@@ -229,6 +229,7 @@ article {
     margin-right: auto;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
     article {
         width: 723px;
         margin-top: calc((100% - 723px) / 2);
@@ -236,6 +237,7 @@ article {
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
     article {
         width: 933px;
         margin-top: calc((100% - 933px) / 2);
@@ -243,6 +245,7 @@ article {
     }
 }
 @media only screen and (min-width: 1200px) {
+
     article {
         width: 1127px;
         margin-top: calc((100% - 1127px) / 2);
@@ -276,11 +279,13 @@ article {
     transition: border-color 0.2s ease-in-out;
 }
 @media only screen {
+
     .page:hover {
         box-shadow: 0 10px 100px 0 rgba(34, 36, 38, 0.3);
     }
 }
 @media only screen and (max-width: 767px) {
+
     .page,
     .page[style^="border-color"] {
         padding: 0;
@@ -491,6 +496,7 @@ article {
     display: none;
 }
 @media only screen and (max-width: 767px) {
+
     [class*="mobile only"].grid,
     .grid > [class*="mobile only"].row,
     .grid > [class*="mobile only"].column,
@@ -513,6 +519,7 @@ article {
     flex: 1 0 auto;
 }
 @media only screen and (max-width: 1199px) {
+
     .avatar-wrapper {
         padding: 0;
     }
@@ -626,6 +633,7 @@ article {
     }
 }
 @media only screen and (max-width: 1199px) {
+
     .contacts {
         margin-top: 1em;
         flex-direction: column;
@@ -968,6 +976,7 @@ dialog:target ~ * {
     opacity: 1;
 }
 @media only screen and (max-width: 767px) {
+
     .credits {
         display: none;
     }
@@ -1008,6 +1017,7 @@ footer {
     z-index: 1;
 }
 @media only screen and (max-width: 767px) {
+
     header {
         height: auto;
         position: relative;
